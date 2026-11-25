@@ -1,0 +1,34 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and package caches
+.venv/
+venv/
+env/
+.uv-cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training outputs and model weights
+models/
+runs/
+outputs/
+*.pth
+*.pt
+*.ckpt
+*.log
+events.out.tfevents.*
+
+# Prepared datasets (keep the README)
+dataset/*
+!dataset/README.md
